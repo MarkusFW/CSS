@@ -1,0 +1,37 @@
+
+div {
+    transition: background-color 900ms;
+    color: red;
+}
+
+
+div:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+button {
+    animation: AkuCintaKamuSayang 2s infinite alternate-reverse;
+    transition: all;
+    color: red;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+@keyframes AkuCintaKamuSayang {
+    0% {
+        transform: translateY(0)
+    }
+    100% {
+        transform: translateY(100px);
+    }
+}
