@@ -6,20 +6,61 @@
 
 
 .container {
-    color: red;
+    border: 4px solid grey;
+    padding: 80px 24px 80px 24px ;
+    
+    
+}
+
+
+.row {
     width: 100%;
-    height: 600px;
-    border: 2px solid red;
+    max-width: 600px;
+    margin: 0 auto -24px auto;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+}
+
+
+.big-box {
+    width: 45%;
+   
+    border: 4px solid green;
+    
+}
+
+
+.box-wrapper {
+    
+    width: 45%;
+    padding-right: 24px;
+    
+    
+}
+
+.box {
+    margin-bottom: 24px;
+    
+    border: 4px solid lightgray;
+    
+}
+
+
+.box-small {
+   height: 50px;
 }
 
 
 
-.box {
-    width: 100px;
-    height: 100px;
-    border: 2px solid black;
+.box-tiny {
+    width: 30%;
+    height: 50px;
+    
+}
+
+
+
+.wrap-tiny {
+    display: flex;
+    justify-content: space-between;
 }
