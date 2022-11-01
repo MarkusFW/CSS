@@ -5,43 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
-      <img src="/assets/HTML Practise Assets/FES.svg" alt="">
-      <div></div>
-      
-      <section>
+    <section>
+      <nav>
+        <img src="/assets/HTML Practise Assets/FES.svg" class="logo" alt="" />
+        <div></div>
+
         <ul>
           <li><a href="/index.html">Home</a></li>
           <li><a href="">About</a></li>
           <li><a href="https://discord.gg/frontend">Discord</a></li>
           <li><a href="">Contact</a></li>
         </ul>
-    </nav>
+      </nav>
 
-  <main>
+      <header>
+        <div class="row">
+          <div>
+            <h1>Best place to learn forntend</h1>
+            <p class="subheader">
+              Go form an absolute beginner to a pro with a simplified process
+            </p>
+            <button>start now</button>
+          </div>
+          <figure>
+            <img src="./assets/HTML Practise Assets/laptop.png" alt="" />
+          </figure>
+        </div>
+      </header>
+    </section>
 
-      <h1>Best place to learn forntend</h1>
-      <p>Go form an absolute beginner to a pro with a simplified process</p>
-      <div>
-        <button>start now</button>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <div class="row">
+          <div class="section__description">
+            <div class="section__description--wrapper">
+              <p class="section__descrition--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                iste eligendi mollitia ratione. Saepe tenetur magnam, neque
+                optio dolor nobis.
+              </p>
+              <p class="section__descrition--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati sed vel earum molestias doloremque. Quibusdam iure
+                temporibus sit sint unde.
+              </p>
+            </div>
+            <figure class="about__img--wrapper">
+              <img src="/test/about.jpg" alt="picture here" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="discord">
+        <h2>Discord</h2>
+        <div class="row">
+          <div class="section__description">
+            <figure class="about__img--wrapper">
+              <img src="/assets/dashboard/discord.png" alt="discord logo" />
+            </figure>
+            <div class="section__description--wrapper">
+              <p class="section__descrition--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti, tempora aperiam nihil magnam explicabo officia ea
+                aspernatur fugit eum libero asperiores iusto totam eveniet
+                pariatur maxime ipsa fuga dolores similique?
+              </p>
+              <p class="section__descrition--para">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum,
+                aspernatur architecto nam ipsa eligendi placeat? Temporibus
+                libero dolorem ipsam aliquid, odit molestias quia exercitationem
+                quibusdam quidem, veniam ea placeat deleniti.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <div class="row">
+          <form action="">
+            <span>Email</span>
+            <input type="email" placeholder="ilove@allu.com" />
+            <span>Message</span>
+            <textarea
+              type="text"
+              placeholder="Hey noot noot ❤️"
+              cols="30"
+              rows="5"
+            ></textarea>
+            <button>Contact Us!</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img
+        class="footer__logo"
+        src="/assets/HTML Practise Assets/FES.svg"
+        alt=""
+      />
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a class="footer__link" href="">Courses</a>
       </div>
-      <img src="./assets/HTML Practise Assets/laptop.png" alt="">
-      
-    </section>
 
-    <section>
-      
-        <h1>About</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse iste eligendi mollitia ratione. Saepe tenetur magnam, neque optio dolor nobis.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sed vel earum molestias doloremque. Quibusdam iure temporibus sit sint unde.</p>
-        <img src="/test/about.jpg" alt="picture here">
-      
-    </section>
-  </main>
-    
-
-    <footer>Copyright terms & conditions</footer>
+      <p>Copyright terms & conditions</p>
+    </footer>
   </body>
 </html>
